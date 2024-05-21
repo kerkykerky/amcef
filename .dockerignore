@@ -1,0 +1,25 @@
+# Ignore Maven directories
+.mvn/
+target/
+logs/
+!target/*.jar
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore IDE directories and files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build script files
+docker-compose.yml
+Dockerfile
