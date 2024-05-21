@@ -115,6 +115,25 @@ Testing the Application
 
         `curl -X POST "http://localhost:8080/posts" -H "Content-Type: application/json" -d '{"userId": 1, "title": "Sample Post", "body": "This is a sample post."}'`
 
+Testing through the Frontend
+-----------------------
+
+The application also includes a simple frontend to test the APIs.
+
+1.  Accessing the Frontend
+
+    -   Ensure the Spring Boot application is running.
+    -   Open your browser and navigate to:
+      
+      `http://localhost:8080/index.html`
+    
+    -    You will see a basic frontend interface where you can interact with the API.
+      
+2.  Using the Frontend
+
+    -   Add Post: Fill in the fields and click on the "Add Post" button to create a new post.
+    -   Get Posts by User ID: Enter the user ID and click "Get Posts" to retrieve posts by a user.
+
 Error Handling
 --------------
 
